@@ -1,0 +1,214 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%\makeatletter
+%\@ifpackageloaded{moderncvstylebanking}{%
+%\let\oldsection\section%
+%\renewcommand{\section}[1]{\leavevmode\unskip\vspace*{-\baselineskip}\oldsection{#1}}%
+%}{%
+%}
+%\makeatother
+% character encoding
+
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\setlist[itemize]{itemsep=-3pt, topsep=-2pt,after=\vspace{0.2\baselineskip}}
+
+
+
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[margin=0.5in]{geometry}
+\usepackage{multicol}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Tristin}{Xie}
+% \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{45770-9450 Gilman Dr. La Jolla, CA 92092-09061 }{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+% \phone[mobile]{909-839-3097}                   % optional, remove / comment the line if not wanted
+% \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+% \email{xpan1@swarthmore.edu}                               % optional, remove / comment the line if not wanted
+% \homepage{shawnpan.me}                         % optional, remove / comment the line if not wanted
+% \extrainfo{}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+  
+\newcommand*{\customcventry}[7][.25em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #4}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\bfseries #5}
+  \end{tabular} \\
+  \begin{tabular}{@{}l} 
+    {\itshape #3}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #2}
+  \end{tabular}
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      %\small
+      #7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\customcvproject}[4][.25em]{
+%   \vfill\noindent
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #3}
+  \end{tabular}
+  \ifx&#4&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#4%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\setlength{\tabcolsep}{12pt}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-23mm}
+\definecolor{moderncvblue}{rgb}{0.22,0.45,0.70}
+\begin{center}
+\begin{tabular}{ c | c | c | c }
+\href{https://www.linkedin.com/in/tristin-xie-245918167}{{\textcolor{moderncvblue}{\faLinkedin\enspace tristinxie}}} &  \href{mailto:tyxie@ucsd.edu}{\textcolor{moderncvblue}{\faEnvelopeO\enspace tyxie@ucsd.edu}} &  \href{https://github.com/tristinxie}{\textcolor{moderncvblue}{\faGithub\enspace tristinxie}} & \href{tel:+1-***REMOVED***}{\textcolor{moderncvblue}{\faMobile\enspace ***REMOVED***}}\\  
+\end{tabular}
+\end{center}
+
+\section{EDUCATION}
+{\customcventry{Expected Graduation: Spring 2022}{BS in Computer Science}{University of California, San Diego}{San Diego, CA}{}{\textit{Provost Scholar}\hfill \textit{GPA: 3.82/4.0}}}
+\textbf{Relevant Coursework} \\
+Computer Organization and Systems Programming $\cdot$ Mathematics for Algorithms and Systems $\cdot$ Basic Data Structures and Object-Oriented Design $\cdot$ Discrete Mathematics $\cdot$ Software Tools and Techniques Laboratory
+\vspace*{-3mm}
+\section{EXPERIENCE}
+\customcventry{June 2018 - May 2019}{Intern}{Cal Poly Pomona}{Pomona, CA}{}
+{\begin{itemize}
+  \item Collaborated in large teams to brainstorm solutions to different engineering problems
+  \item Pitched a machine learning goals application prototype to professor and other interns
+  \item Presented a case study to faculty
+\end{itemize}
+}
+\vspace*{-4mm}
+
+\section{PROJECTS}
+
+{\customcvproject{LawyerMatch: Web App Matching Immigrant Detainees With Lawyers | \href{https://devpost.com/software/lawyermatch}{\textcolor{moderncvblue}{Devpost}} | \href{https://github.com/joeliosa/ProjectAid}{\textcolor{moderncvblue}{\faGithub \enspace Github}} |}{Feb. 2020}{\textit{Technologies: JavaScript $\cdot$ Firebase $\cdot$ Twilio $\cdot$ CSS $\cdot$ Bootstrap $\cdot$ HTML}}
+  {\begin{itemize}
+    \item Collaborated with a team of 4 at USC's annual hackathon HackSC
+    \item Set up automated phone line to ask questions and store answers into database
+    \item Web application retrieves profiles from database to match with potential lawyers
+  \end{itemize}
+  
+  }
+}
+
+{\customcvproject{EnviroSense: Internet of Things Pollution Sensor | \href{https://devpost.com/software/envirosense}{\textcolor{moderncvblue}{Devpost}} | \href{https://github.com/jerukan/EnviroSense}{\textcolor{moderncvblue}{\faGithub \enspace Github}} |}{Oct. 2019}{\textit{Technologies: Java (Android) $\cdot$ Python $\cdot$ Firebase $\cdot$ Google IoT Core $\cdot$ ESP8266}}
+{\begin{itemize}
+  \item \textbf{SDHacks WINNER (3\textsuperscript{rd}):} \textit{Best IoT that Incorporates Multiple Nodes}
+  \item Created sensor node prototype which measures data from the environment
+  \item Uploaded data to database which can be retrieved and displayed by the Android app
+\end{itemize}
+}
+
+
+{\customcvproject{PictureTranslate: Real-time Computer Vision Object Translator |  \href{https://github.com/ucsd-cse-spis-2019/project-tristin-caroline}{\textcolor{moderncvblue}{\faGithub \enspace Github}} |}{Aug. 2019}{\textit{Technologies: Python $\cdot$ OpenCV $\cdot$ ImageNet}}
+{\begin{itemize}
+  \item Collaborated with a partner
+  \item Trained Haar Cascades on smartphone and various dollar bills 
+  \item Camera takes video feed and pauses with desired translation of object to the target language
+\end{itemize}
+}
+}
+\vspace*{-4mm}
+\section{SKILLS}
+%\begin{minipage}{\maincolumnwidth}%
+	%\small{
+    	\begin{itemize}
+          \item \textbf{Languages:} Java $\cdot$ C/C++ $\cdot$ Python $\cdot$ ARM Assembly $\cdot$ JavaScript $\cdot$ HTML/CSS $\cdot$ Bash $\cdot$ \LaTeX 
+          \item \textbf{Frameworks and Tools:} Git $\cdot$ GDB $\cdot$ Valgrind $\cdot$ OpenCV $\cdot$ Google Cloud $\cdot$ Firebase 
+          \item \textbf{Software:} Vim $\cdot$ Visual Studio Code $\cdot$ Android Studio $\cdot$ Adobe Illustrator $\cdot$ Microsoft Office
+          \item Fluent in Mandarin Chinese
+		\end{itemize}}
+%\end{minipage}%
+
+\vspace*{-4mm}
+
+\section{ACHIEVEMENTS}
+\customcventry{\small{$\sim$10 hours}}{\small{Participant}}{JPMorgan Chase \& Co.}{June 2020}{e}{}
+\begin{itemize}
+    \item Participated in the open access JPMorgan Chase \& Co. Virtual Experience Program with InsideSherpa.
+    \item Implemented a stock visualizer using React, Node.js, and the JPMorgan Perspective engine
+    \item Used Python to compare the correlation between stocks and created unit tests to cover edge cases
+\end{itemize}
+
+%}
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
