@@ -21,7 +21,7 @@
 %}{%
 %}
 %\makeatother
-%character encoding
+% character encoding
 
 \usepackage[utf8]{inputenc}
 \usepackage{fontawesome}
@@ -47,6 +47,7 @@
 
 % personal data
 \name{Tristin}{Xie}
+
 % \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
 %\address{45770-9450 Gilman Dr. La Jolla, CA 92092-09061 }{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 % \phone[mobile]{909-839-3097}                   % optional, remove / comment the line if not wanted
@@ -115,7 +116,7 @@
 \begin{document}
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
-\vspace*{-23mm}
+\vspace*{-18mm}
 \definecolor{moderncvblue}{rgb}{0.22,0.45,0.70}
 \begin{center}
 \begin{tabular}{ c | c | c | c }
@@ -124,46 +125,46 @@
 \end{center}
 
 \section{EDUCATION}
-{\customcventry{Expected Graduation: Spring 2022}{BS in Computer Science}{University of California, San Diego}{San Diego, CA}{}{\textit{Provost Scholar}\hfill \textit{GPA: 3.82/4.0}}}
+{\customcventry{GPA: 3.841/4.0}{BS in Computer Science}{University of California San Diego}{Expected Graduation: June 2022}{}{\textit{Provost Scholar}{}}}
 \textbf{Relevant Coursework} \\
-Computer Organization and Systems Programming $\cdot$ Mathematics for Algorithms and Systems $\cdot$ Basic Data Structures and Object-Oriented Design $\cdot$ Discrete Mathematics $\cdot$ Software Tools and Techniques Laboratory
+Computer Organization and Systems Programming $\cdot$ Mathematics for Algorithms and Systems $\cdot$ Basic Data Structures and Object-Oriented Design $\cdot$ Discrete Mathematics $\cdot$ Software Tools and Techniques Laboratory $\cdot$ Linear Algebra
 \vspace*{-3mm}
 \section{EXPERIENCE}
-\customcventry{June 2018 - May 2019}{Intern}{Cal Poly Pomona}{Pomona, CA}{}
+\customcventry{June 2018 - May 2019}{Tech Design Intern}{California State Polytechnic University, Pomona}{Pomona, CA}{}
 {\begin{itemize}
-  \item Collaborated in large teams to brainstorm solutions to different engineering problems
-  \item Pitched a machine learning goals application prototype to professor and other interns
-  \item Presented a case study to faculty
+  \item Collaborated in large teams to brainstorm a variety of engineering problems and possible solutions
+  \item Pitched a machine learning goal tracking application design prototype to professor and other interns
+  \item Presented a meta case study of the internship to faculty and other interns
 \end{itemize}
 }
 \vspace*{-4mm}
 
 \section{PROJECTS}
 
-{\customcvproject{LawyerMatch: Web App Matching Immigrant Detainees With Lawyers | \href{https://devpost.com/software/lawyermatch}{\textcolor{moderncvblue}{Devpost}} | \href{https://github.com/joeliosa/ProjectAid}{\textcolor{moderncvblue}{\faGithub \enspace Github}} |}{Feb. 2020}{\textit{Technologies: JavaScript $\cdot$ Firebase $\cdot$ Twilio $\cdot$ CSS $\cdot$ Bootstrap $\cdot$ HTML}}
+{\customcvproject{LawyerMatch: Web App Matching Immigrant Detainees With Lawyers | \href{https://devpost.com/software/lawyermatch}{\textcolor{moderncvblue}{Devpost}} | \href{https://github.com/joeliosa/ProjectAid}{\textcolor{moderncvblue}{\faGithub \enspace Github}}}{Feb. 2020}{\textit{Technologies: JavaScript $\cdot$ Firebase $\cdot$ Twilio $\cdot$ CSS $\cdot$ Bootstrap $\cdot$ HTML}}
   {\begin{itemize}
+    \item Worked on web application that allows login and retrieves profiles from database to match with potential lawyers
+    \item Twilio automated phone line asks questions and store answers into Firebase database
     \item Collaborated with a team of 4 at USC's annual hackathon HackSC
-    \item Set up automated phone line to ask questions and store answers into database
-    \item Web application retrieves profiles from database to match with potential lawyers
   \end{itemize}
   
   }
 }
 
-{\customcvproject{EnviroSense: Internet of Things Pollution Sensor | \href{https://devpost.com/software/envirosense}{\textcolor{moderncvblue}{Devpost}} | \href{https://github.com/jerukan/EnviroSense}{\textcolor{moderncvblue}{\faGithub \enspace Github}} |}{Oct. 2019}{\textit{Technologies: Java (Android) $\cdot$ Python $\cdot$ Firebase $\cdot$ Google IoT Core $\cdot$ ESP8266}}
+{\customcvproject{EnviroSense: Internet of Things Pollution Sensor | \href{https://devpost.com/software/envirosense}{\textcolor{moderncvblue}{Devpost}} | \href{https://github.com/jerukan/EnviroSense}{\textcolor{moderncvblue}{\faGithub \enspace Github}}}{Oct. 2019}{\textit{Technologies: Java (Android) $\cdot$ Python $\cdot$ Firebase $\cdot$ Google IoT Core $\cdot$ ESP8266}}
 {\begin{itemize}
-  \item \textbf{SDHacks WINNER (3\textsuperscript{rd}):} \textit{Best IoT that Incorporates Multiple Nodes}
-  \item Created sensor node prototype which measures data from the environment
-  \item Uploaded data to database which can be retrieved and displayed by the Android app
+  \item \textbf{SDHacks WINNER (3\textsuperscript{rd}):} \textit{Best IoT that Incorporates Multiple Nodes (team of 4)}
+  \item Created sensor node prototype which measures data from the ambient environment
+  \item Uploaded data to Firebase database which can be retrieved and displayed by the Android app
 \end{itemize}
 }
 
 
-{\customcvproject{PictureTranslate: Real-time Computer Vision Object Translator |  \href{https://github.com/ucsd-cse-spis-2019/project-tristin-caroline}{\textcolor{moderncvblue}{\faGithub \enspace Github}} |}{Aug. 2019}{\textit{Technologies: Python $\cdot$ OpenCV $\cdot$ ImageNet}}
+{\customcvproject{PictureTranslate: Real-time Computer Vision Object Translator |  \href{https://github.com/ucsd-cse-spis-2019/project-tristin-caroline}{\textcolor{moderncvblue}{\faGithub \enspace Github}}}{Aug. 2019}{\textit{Technologies: Python $\cdot$ OpenCV $\cdot$ ImageNet}}
 {\begin{itemize}
-  \item Collaborated with a partner
-  \item Trained Haar Cascades on smartphone and various dollar bills 
+  \item Trained Haar Cascades on smartphones and various dollar bills 
   \item Camera takes video feed and pauses with desired translation of object to the target language
+  \item Collaborated with a partner
 \end{itemize}
 }
 }
@@ -173,7 +174,7 @@ Computer Organization and Systems Programming $\cdot$ Mathematics for Algorithms
 	%\small{
     	\begin{itemize}
           \item \textbf{Languages:} Java $\cdot$ C/C++ $\cdot$ Python $\cdot$ ARM Assembly $\cdot$ JavaScript $\cdot$ HTML/CSS $\cdot$ Bash $\cdot$ \LaTeX 
-          \item \textbf{Frameworks and Tools:} Git $\cdot$ GDB $\cdot$ Valgrind $\cdot$ OpenCV $\cdot$ Google Cloud $\cdot$ Firebase 
+          \item \textbf{Frameworks and Tools:} Git $\cdot$ GDB $\cdot$ Valgrind $\cdot$ React $\cdot$ Node.js $\cdot$ OpenCV $\cdot$ Google Cloud $\cdot$ Firebase 
           \item \textbf{Software:} Vim $\cdot$ Visual Studio Code $\cdot$ Android Studio $\cdot$ Adobe Illustrator $\cdot$ Microsoft Office
           \item Fluent in Mandarin Chinese
 		\end{itemize}}
