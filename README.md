@@ -1,6 +1,11 @@
 # Tristin Xie's Resume
 This is my most recent resume. I will keep it updated periodically. 
 
+[View my resume](https://github.com/tristinxie/resume/blob/master/out/TristinXieResume.pdf)
+
+[Download my resume (PDF with clickable links)](https://github.com/tristinxie/resume/raw/master/out/TristinXieResume.pdf)
+
+
 I used the Awesome CV template created by posquit0 and its contributors. [Here is the link for the original repository.](https://github.com/posquit0/Awesome-CV) I made some changes for my personal use, but all credit goes to the original contributors. The README for Awesome CV is below.
 
 <h1 align="center">
