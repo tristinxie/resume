@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.15)  15 SEP 2023 04:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.15)  15 SEP 2023 04:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -835,33 +835,33 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 24.
+(Font)              scaled to size 10.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 24.
+(Font)              scaled to size 10.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sl' in size <9> not available
-(Font)              Font shape `TU/SourceSansPro(1)/m/it' tried instead on input line 24.
+(Font)              Font shape `TU/SourceSansPro(1)/m/it' tried instead on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 24.
+(Font)              scaled to size 9.00096pt on input line 32.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 24.
+(Font)              scaled to size 6.00064pt on input line 32.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 24.
+(Font)              scaled to size 5.00053pt on input line 32.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 24.
+(Font)              scaled to size 8.99904pt on input line 32.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 24.
+(Font)              scaled to size 5.99936pt on input line 32.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 24.
+(Font)              scaled to size 4.99947pt on input line 32.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 32.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 6.0pt on input line 24.
+(Font)              scaled to size 6.0pt on input line 32.
 ) (./resume/experience.tex) (./resume/leadership.tex) (./resume/projects.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 20.
@@ -882,10 +882,10 @@ Package rerunfilecheck Info: File `TristinXieResume.out' has not changed.
 Here is how much of TeX's memory you used:
  32884 strings out of 476683
  671571 string characters out of 5804047
- 1894018 words of memory out of 5000000
+ 1895018 words of memory out of 5000000
  52571 multiletter control sequences out of 15000+600000
  516237 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,118p,598b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,12n,118p,598b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /Users/tristin/Documents/github/personal/resume/out/TristinXieResume.pdf (1 page).
