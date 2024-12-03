@@ -16,7 +16,10 @@
     {
       \begin{cvitems}
         % \item {Refactored camera-to-robot pose estimation to a \textbf{Robot Operating System (ROS)} package}
-        \item {Experimented with \textbf{statistical filtering techniques} such as z-score, Kalman, and softmax confidence to reduce erratic predictions} 
+        % \item {Experimented with \textbf{statistical filtering techniques} such as z-score, Kalman, and softmax confidence to reduce erratic predictions} 
+        \item Constructed a full \textbf{dataset collection pipeline} for the Franka Emika Panda consisting of video, camera calibration parameters, and timestamps
+        \item Hand-labeled thousands of frames of video to correct erroneous predictions from \textbf{Segment Anything 2} for evaluation on ground truth mask
+        \item \textbf{Parallelized} and implemented a \textbf{particle filter} to smooth noisy real-time predictions from the camera to robot pose neural network (CtRNet)
       \end{cvitems}
     }
 
